@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="lib/codemirror.css">
+		<link rel="stylesheet" type="text/css" href="lib/codemirror.mode-mylanguage.css">
+		<link rel="stylesheet" type="text/css" href="lib/pegeditor.css">
+		<link rel="stylesheet" type="text/css" href="lib/index.css">
+		<script src="lib/jquery.js"></script>
+		<script src="lib/codemirror.js"></script>
+		<script src="lib/codemirror.addon.simple-mode.js"></script>
+		<script src="lib/codemirror.addon.selected-text.js"></script>
+		<script src="lib/codemirror.mode-mylanguage.js"></script>
+		<script src="lib/mylanguage.parser.js"></script>
+		<script src="lib/pegjs.js"></script>
+		<script src="lib/pegeditor.js"></script>
+		<script src="lib/index.js"></script>
+		<title>El Lenguaje de X</title>
+	</head>
+	<body>
+		<div class="wrapper horizontal-rows">
+			<div class="box-half box-1">
+				<textarea id="e1" data-pegeditor-grammar="mylanguage"></textarea>
+				<div class="editor-label">mylanguage</div>
+			</div>
+			<div class="box-half box-2">
+				<textarea id="e2" data-pegeditor-settings='{"mode":"mylanguage-reporte"}'></textarea>
+				<div class="editor-label">resultado</div>
+			</div>
+			<div class="buttons-panel">
+				<button class="change-view-button">
+					<img src="lib/eye.png">
+				</button>
+				<button class="change-download-button">
+					<img src="lib/output.png">
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
