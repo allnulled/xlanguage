@@ -1,0 +1,27 @@
+.CodeMirror .cm-fenomeno,
+.CodeMirror .cm-verbo,
+.CodeMirror .cm-adjetivo,
+.CodeMirror .cm-comentario,
+.CodeMirror .cm-valor {
+	/*font-style: italic;*/
+	text-transform: none;
+}
+.CodeMirror .cm-fenomeno {
+	color: gold;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.CodeMirror .cm-verbo {
+	color: #0f0;
+}
+.CodeMirror .cm-adjetivo {
+	color: pink;
+}
+.CodeMirror .cm-comentario {
+	color: violet;
+}
+.CodeMirror .cm-valor {
+	color: red;
+	font-weight: bold;
+	text-transform: none;
+}
