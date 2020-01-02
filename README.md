@@ -7,5 +7,3 @@ La **programación sintáctica** es un paradigma de la programación en el que s
 El concepto de **programación sintáctica** viene a raíz de varios experimentos con los 
 lenguajes de la programación, y algunas conclusiones en cada uno de ellos.
 
-Saludos.
-

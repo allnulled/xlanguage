@@ -14,14 +14,20 @@
 .CodeMirror .cm-verbo {
 	color: #0f0;
 }
+.CodeMirror .cm-verbo-definido {
+	color: #0f0;
+}
 .CodeMirror .cm-adjetivo {
 	color: pink;
 }
 .CodeMirror .cm-comentario {
-	color: violet;
+	color: #12CBC4;
 }
 .CodeMirror .cm-valor {
 	color: red;
 	font-weight: bold;
 	text-transform: none;
+}
+.CodeMirror .cm-bloque {
+	color: blue;
 }

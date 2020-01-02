@@ -116,7 +116,7 @@ ${window.location.protocol}//${window.location.host + window.location.pathname +
 	}
 
 	const getStringOutput = function(output) {
-		console.log(output);
+		//console.log(output);
 		return JSON.stringify(output, null, 2);
 	};
 
@@ -149,6 +149,10 @@ ${window.location.protocol}//${window.location.host + window.location.pathname +
 	const addEvents = () => {
 		jQuery(".change-download-button").on("click", configurations.clickOnDownload);
 		jQuery(".change-view-button").on("click", configurations.clickOnView);
+		setTimeout(() => {
+			editor1.setCursor(0,0);
+			editor1.focus();
+		}, 3000);
 	}
 
 	const initializeStateFromUrlParameters = () => {
