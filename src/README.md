@@ -2,7 +2,9 @@
 
 Bienvenid@ a la documentación de El Lenguaje X.
 
-Para ir a la documentación del lenguaje, clicke [aquí](https://github.com/allnulled/xlanguage/blob/master/README.md).
+Para ir a la aplicación del lenguaje, clique [aquí](https://allnulled.github.io/xlanguage/).
+
+Para ir a la documentación del lenguaje, clique [aquí](https://github.com/allnulled/xlanguage/blob/master/README.md).
 
 ## Instrucciones
 
